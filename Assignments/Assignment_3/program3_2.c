@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////////////
+//
+// Function Name: DisplayFactor
+// Input        : Integer
+// Output       : 
+// Description  : Print Factors of Number
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 void DisplayFactor(int iNo)
 {
     if(iNo<=0)
@@ -16,6 +26,11 @@ void DisplayFactor(int iNo)
     }
 }
 
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;

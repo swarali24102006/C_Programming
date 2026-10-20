@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////////////
+//
+// Function Name: DisplayConvert
+// Input        : Character
+// Output       : 
+// Description  : Convert Captital letter to small and small to capital
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 void DisplayConvert(char cValue)
 {
     int t = cValue-'A';
@@ -16,6 +26,12 @@ void DisplayConvert(char cValue)
         printf("Not Convertable\n");
     }
 }
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

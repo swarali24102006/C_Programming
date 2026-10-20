@@ -5,6 +5,16 @@
 #define FALSE 0
 typedef int BOOL;
 
+//////////////////////////////////////////////////////
+//
+// Function Name: checkEven
+// Input        : Integer
+// Output       : Integer
+// Description  : Chehck Number is even or odd
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 BOOL checkEven(int iNo)
 {
    if(iNo % 2 ==0)
@@ -14,6 +24,12 @@ BOOL checkEven(int iNo)
 
     return FALSE;
 }
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;

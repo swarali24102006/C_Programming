@@ -1,7 +1,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void DisplayFactor(int iNo)
+//////////////////////////////////////////////////////
+//
+// Function Name: DisplayEvenFactors
+// Input        : Integer
+// Output       : 
+// Description  : Print Even factors of Number
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
+void DisplayEvenFactor(int iNo)
 {
     if(iNo<=0)
     {
@@ -16,6 +26,12 @@ void DisplayFactor(int iNo)
     }
 }
 
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;
@@ -23,7 +39,7 @@ int main()
     printf("Enter Number\n");
     scanf("%d",&iValue);
 
-    DisplayFactor(iValue);
+    DisplayEvenFactor(iValue);
 
     return EXIT_SUCCESS;
 }

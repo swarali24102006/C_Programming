@@ -5,6 +5,16 @@
 #define FALSE 0
 typedef int BOOL;
 
+//////////////////////////////////////////////////////
+//
+// Function Name: ChkVowel
+// Input        : Character
+// Output       : Integer
+// Description  : Chehck character is Vowel Or Not
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 BOOL ChkVowel(char cValue)
 {
     if(cValue>='A' && cValue<='Z')
@@ -20,6 +30,12 @@ BOOL ChkVowel(char cValue)
         return FALSE;
     }
 }
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

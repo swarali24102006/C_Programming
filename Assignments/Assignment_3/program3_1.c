@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////////////
+//
+// Function Name: PrintEven
+// Input        : Integer
+// Output       : 
+// Description  : print N even Numbers
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 void PrintEven(int iNo)
 {
     if(iNo<=0)
@@ -14,6 +24,12 @@ void PrintEven(int iNo)
     }
 }
 
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;

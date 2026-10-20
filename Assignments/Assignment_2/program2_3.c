@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//////////////////////////////////////////////////////
+//
+// Function Name: Display
+// Input        : Integer
+// Output       : 
+// Description  : Chehck Number is negative or positive
+// Date         : 20/10/2026
+// Author       : Swarali Laxman Gurav
+//
+//////////////////////////////////////////////////////
 void Display(int iNo)
 {
     if(iNo<0)
@@ -13,6 +23,12 @@ void Display(int iNo)
     }
     
 }
+
+//////////////////////////////////////////////////////
+// 
+// Entry Point Of The Application
+//
+//////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;

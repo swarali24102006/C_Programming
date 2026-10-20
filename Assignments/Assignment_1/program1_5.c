@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////
 //
 // Function Name: Accept
-// Input        : 
+// Input        : Integer
 // Output       : 
 // Description  : Print 5 time *
 // Date         : 19/10/2026
